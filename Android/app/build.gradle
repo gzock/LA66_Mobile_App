@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     namespace "com.sz.cp2102"
-    compileSdkVersion 34
+    compileSdkVersion 33
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -10,7 +10,7 @@ android {
     defaultConfig {
         applicationId "com.sz.cp2102"
         minSdkVersion 19
-        targetSdkVersion 34
+        targetSdkVersion 33
         versionCode 3
         versionName "1.02"
         multiDexEnabled true
